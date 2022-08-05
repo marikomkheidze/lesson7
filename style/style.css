@@ -54,8 +54,6 @@
 
 }
 
-.texts {}
-
 .headline1 {
     width: 437px;
     font-family: 'Lato';
@@ -75,11 +73,13 @@
     width: 584px;
 }
 
+/* blue icon */
 .wave {
     margin-top: 84px;
     margin-right: 132px;
     width: 150px;
     height: 50px;
+    border-radius: 38px;
     background-color: #3D37F1;
     display: flex;
     justify-content: space-around;
@@ -87,7 +87,10 @@
 }
 
 .waveme {
-    
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
 
