@@ -1,6 +1,18 @@
+/* body */
+.body {
+    padding-top: 100px;
+}
+
 /* header */
+.head {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 130px;
+    background-color: #FFFFFF;
+}
+
 .header {
-    margin: 0px auto;
     width: 1400px;
     height: 100px;
     display: flex;
@@ -9,6 +21,7 @@
 }
 
 .nav {
+    padding-right: 80px;
     width: 580px;
     display: flex;
     justify-content: space-between;
@@ -23,3 +36,62 @@
     color: #3D37F1;
 }
 
+/* section - wraper */
+
+.section1 {
+    padding-top: 170px;
+    padding-bottom: 284px;
+    width: auto;
+    background-color: #FBFCFD;
+}
+
+.wraper {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    width: auto;
+
+}
+
+.texts {}
+
+.headline1 {
+    width: 437px;
+    font-family: 'Lato';
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.headline2 {
+    margin-top: 42px;
+    width: 437px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: regular;
+}
+
+.image1 {
+    width: 584px;
+}
+
+.wave {
+    margin-top: 84px;
+    margin-right: 132px;
+    width: 150px;
+    height: 50px;
+    background-color: #3D37F1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.waveme {
+    
+}
+
+
+/* hover effect */
+.wave:hover {
+    background-color: #A26565;
+}
