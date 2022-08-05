@@ -1,0 +1,25 @@
+/* header */
+.header {
+    margin: 0px auto;
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-items {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D37F1;
+}
+
