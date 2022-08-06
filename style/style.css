@@ -148,6 +148,13 @@
 
 }
 
+.readmore {
+    width: 100px;
+    height: 40px;
+    border-color: #FFFFFF;
+    border-radius: 23px;
+}
+
 .box {
     width: 270px;
     height: 351px;
