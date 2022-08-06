@@ -152,7 +152,17 @@
     width: 270px;
     height: 351px;
     background-color: #3D37F1;
+    padding-top: 80px;
     margin-bottom: 60px;
+}
+
+.box-icons {
+    width: 60px;
+    margin: 0px auto;
+}
+
+.icons {
+    width: 60px;
 }
 
 /* pseudo classes */
