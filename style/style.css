@@ -150,22 +150,50 @@
 
 .readmore {
     width: 100px;
-    height: 40px;
-    border-color: #FFFFFF;
-    border-radius: 23px;
+    height: 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    padding-top: 5px;
+
+}
+
+.p-read {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .box {
     width: 270px;
     height: 351px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin: auto;
     background-color: #3D37F1;
-    padding-top: 80px;
     margin-bottom: 60px;
 }
 
-.box-icons {
-    width: 60px;
-    margin: 0px auto;
+.h2 {
+    text-align: center;
+    margin-top: 47px;
+    margin-bottom: 8px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.div-text {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: regular;
+    color: #FFFFFF;
 }
 
 .icons {
@@ -203,4 +231,12 @@
 /* hover effect */
 .wave:hover {
     background-color: #A26565;
+}
+
+.readmore:hover {
+    background-color: #FFFFFF;
+}
+
+.p-read:hover {
+    color: #3D37F1;
 }
