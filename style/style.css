@@ -230,7 +230,9 @@
 
 /* hover effect */
 .wave:hover {
-    background-color: #A26565;
+    border: 1px solid;
+    color: #3D37F1;
+    box-shadow: 5px 10px 18px;
 }
 
 .readmore:hover {
@@ -238,5 +240,41 @@
 }
 
 .p-read:hover {
-    color: #3D37F1;
+    color: black;
+}
+
+.box:nth-child(1):hover {
+    border: 1px solid;
+    color: #FBBA77;
+    box-shadow: 5px 10px 18px;
+}
+
+.box:nth-child(2):hover {
+    border: 1px solid;
+    color: #41EAE3;
+    box-shadow: 5px 10px 18px;
+}
+
+.box:nth-child(3):hover {
+    border: 1px solid;
+    color: #69529F;
+    box-shadow: 5px 10px 18px;
+}
+
+.box:nth-child(4):hover {
+    border: 1px solid;
+    color: #4386D2;
+    box-shadow: 5px 10px 18px;
+}
+
+.box:nth-child(5):hover {
+    border: 1px solid;
+    color: #A5A2F6;
+    box-shadow: 5px 10px 18px;
+}
+
+.box:nth-child(6):hover {
+    border: 1px solid;
+    color: #FF8088;
+    box-shadow: 5px 10px 18px;
 }
